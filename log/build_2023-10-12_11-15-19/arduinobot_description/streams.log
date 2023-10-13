@@ -1,0 +1,36 @@
+[0.769s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+[1.668s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+[2.697s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roboticist/arduinobot_ws/build/arduinobot_description
+[2.877s] -- Install configuration: ""
+[2.883s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[2.885s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[2.892s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[2.897s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[2.898s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[2.900s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[2.906s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[2.906s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[2.907s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[2.915s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[2.915s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[2.916s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[2.916s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[2.928s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[2.931s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[2.934s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[2.934s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[2.935s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[2.935s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[2.936s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[2.950s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[2.951s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[2.957s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[2.957s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[2.958s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[2.958s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[2.958s] -- Installing: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[2.969s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[2.969s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[2.973s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[2.976s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[3.000s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roboticist/arduinobot_ws/build/arduinobot_description

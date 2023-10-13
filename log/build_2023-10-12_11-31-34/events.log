@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.002170] (arduinobot_cpp_examples) JobQueued: {'identifier': 'arduinobot_cpp_examples', 'dependencies': OrderedDict()}
+[0.002942] (arduinobot_description) JobQueued: {'identifier': 'arduinobot_description', 'dependencies': OrderedDict()}
+[0.003477] (arduinobot_py_examples) JobQueued: {'identifier': 'arduinobot_py_examples', 'dependencies': OrderedDict()}
+[0.003918] (arduinobot_cpp_examples) JobStarted: {'identifier': 'arduinobot_cpp_examples'}
+[0.091217] (-) TimerEvent: {}
+[0.193765] (-) TimerEvent: {}
+[0.297857] (-) TimerEvent: {}
+[0.401707] (-) TimerEvent: {}
+[0.510007] (-) TimerEvent: {}
+[0.616202] (-) TimerEvent: {}
+[0.721498] (-) TimerEvent: {}
+[0.831654] (arduinobot_description) JobStarted: {'identifier': 'arduinobot_description'}
+[0.834457] (-) TimerEvent: {}
+[0.936702] (-) TimerEvent: {}
+[1.038838] (-) TimerEvent: {}
+[1.146055] (-) TimerEvent: {}
+[1.251155] (-) TimerEvent: {}
+[1.355904] (-) TimerEvent: {}
+[1.463174] (-) TimerEvent: {}
+[1.566379] (-) TimerEvent: {}
+[1.676272] (-) TimerEvent: {}
+[1.783158] (-) TimerEvent: {}
+[1.807724] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'cmake'}
+[1.820913] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'build'}
+[1.837944] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples', '--', '-j2', '-l2'], 'cwd': '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_NG:en'), ('USER', 'roboticist'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboticist'), ('OLDPWD', '/home/roboticist'), ('DESKTOP_SESSION', 'mate'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/roboticist/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1428'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1452'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32a9d380155446c0283856506524fc78'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '46371'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboticist'), ('JOURNAL_STREAM', '8:35525'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/roboticist/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/roboticist-virtual-machine:@/tmp/.ICE-unix/1453,unix/roboticist-virtual-machine:/tmp/.ICE-unix/1453'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '5580c609447949a7a3a7968cfdce515f'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/roboticist/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/roboticist/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/roboticist'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:799afbc5-b6d0-4fd9-9c25-66e8604979b2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32a9d380155446c0283856506524fc78'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/roboticist/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.886020] (-) TimerEvent: {}
+[1.912030] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'cmake'}
+[1.925705] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'build'}
+[1.931577] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roboticist/arduinobot_ws/build/arduinobot_description', '--', '-j2', '-l2'], 'cwd': '/home/roboticist/arduinobot_ws/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_NG:en'), ('USER', 'roboticist'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboticist'), ('OLDPWD', '/home/roboticist'), ('DESKTOP_SESSION', 'mate'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/roboticist/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1428'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1452'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32a9d380155446c0283856506524fc78'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '46371'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboticist'), ('JOURNAL_STREAM', '8:35525'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/roboticist/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/roboticist-virtual-machine:@/tmp/.ICE-unix/1453,unix/roboticist-virtual-machine:/tmp/.ICE-unix/1453'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '5580c609447949a7a3a7968cfdce515f'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/roboticist/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/roboticist/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/roboticist'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:799afbc5-b6d0-4fd9-9c25-66e8604979b2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/roboticist/arduinobot_ws/build/arduinobot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32a9d380155446c0283856506524fc78'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/roboticist/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.992119] (-) TimerEvent: {}
+[2.097484] (-) TimerEvent: {}
+[2.201152] (-) TimerEvent: {}
+[2.310021] (-) TimerEvent: {}
+[2.412733] (-) TimerEvent: {}
+[2.521156] (-) TimerEvent: {}
+[2.623141] (-) TimerEvent: {}
+[2.725045] (-) TimerEvent: {}
+[2.829810] (-) TimerEvent: {}
+[2.933478] (-) TimerEvent: {}
+[3.038077] (-) TimerEvent: {}
+[3.144531] (-) TimerEvent: {}
+[3.256682] (-) TimerEvent: {}
+[3.364626] (-) TimerEvent: {}
+[3.429764] (arduinobot_description) CommandEnded: {'returncode': 0}
+[3.476565] (-) TimerEvent: {}
+[3.591240] (-) TimerEvent: {}
+[3.693182] (-) TimerEvent: {}
+[3.798910] (-) TimerEvent: {}
+[3.904471] (-) TimerEvent: {}
+[4.005979] (-) TimerEvent: {}
+[4.097359] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 33%] Built target simple_publisher\n'}
+[4.106848] (-) TimerEvent: {}
+[4.209926] (-) TimerEvent: {}
+[4.319130] (-) TimerEvent: {}
+[4.420908] (-) TimerEvent: {}
+[4.529932] (-) TimerEvent: {}
+[4.635012] (-) TimerEvent: {}
+[4.719494] (arduinobot_description) JobProgress: {'identifier': 'arduinobot_description', 'progress': 'install'}
+[4.738070] (-) TimerEvent: {}
+[4.840576] (-) TimerEvent: {}
+[4.942926] (-) TimerEvent: {}
+[5.026187] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 66%] Built target simple_subscriber\n'}
+[5.047912] (arduinobot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/roboticist/arduinobot_ws/build/arduinobot_description'], 'cwd': '/home/roboticist/arduinobot_ws/build/arduinobot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_NG:en'), ('USER', 'roboticist'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboticist'), ('OLDPWD', '/home/roboticist'), ('DESKTOP_SESSION', 'mate'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/roboticist/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1428'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1452'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32a9d380155446c0283856506524fc78'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '46371'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboticist'), ('JOURNAL_STREAM', '8:35525'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/roboticist/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/roboticist-virtual-machine:@/tmp/.ICE-unix/1453,unix/roboticist-virtual-machine:/tmp/.ICE-unix/1453'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '5580c609447949a7a3a7968cfdce515f'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/roboticist/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/roboticist/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/roboticist'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:799afbc5-b6d0-4fd9-9c25-66e8604979b2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/roboticist/arduinobot_ws/build/arduinobot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32a9d380155446c0283856506524fc78'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/roboticist/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.049374] (-) TimerEvent: {}
+[5.151042] (-) TimerEvent: {}
+[5.254102] (-) TimerEvent: {}
+[5.361254] (-) TimerEvent: {}
+[5.377537] (arduinobot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.386043] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes\n'}
+[5.394120] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL\n'}
+[5.400957] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL\n'}
+[5.408129] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL\n'}
+[5.414395] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL\n'}
+[5.416750] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL\n'}
+[5.422348] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL\n'}
+[5.424873] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL\n'}
+[5.431509] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL\n'}
+[5.437260] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL\n'}
+[5.446031] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL\n'}
+[5.453268] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL\n'}
+[5.465218] (-) TimerEvent: {}
+[5.474754] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL\n'}
+[5.475453] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL\n'}
+[5.475990] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf\n'}
+[5.476459] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro\n'}
+[5.483260] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description\n'}
+[5.496172] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description\n'}
+[5.496906] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh\n'}
+[5.503120] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv\n'}
+[5.510282] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh\n'}
+[5.520749] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv\n'}
+[5.521677] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash\n'}
+[5.532524] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh\n'}
+[5.533374] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh\n'}
+[5.541384] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv\n'}
+[5.549140] (arduinobot_description) StdoutLine: {'line': b'-- Installing: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv\n'}
+[5.551285] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description\n'}
+[5.558974] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake\n'}
+[5.567562] (-) TimerEvent: {}
+[5.570005] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake\n'}
+[5.587018] (arduinobot_description) StdoutLine: {'line': b'-- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml\n'}
+[5.611640] (arduinobot_description) CommandEnded: {'returncode': 0}
+[5.687387] (-) TimerEvent: {}
+[5.789631] (-) TimerEvent: {}
+[5.903457] (-) TimerEvent: {}
+[5.959828] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o\x1b[0m\n'}
+[6.016454] (-) TimerEvent: {}
+[6.118892] (-) TimerEvent: {}
+[6.230782] (-) TimerEvent: {}
+[6.360248] (arduinobot_cpp_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[6.361619] (-) TimerEvent: {}
+[6.380860] (arduinobot_cpp_examples) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<rclcpp/rclcpp.hpp>\x1b[m\x1b[K\n'}
+[6.382092] (arduinobot_cpp_examples) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.387990] (arduinobot_cpp_examples) StderrLine: {'line': b'compilation terminated.\n'}
+[6.388921] (arduinobot_cpp_examples) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1\n'}
+[6.389818] (arduinobot_cpp_examples) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2\n'}
+[6.416958] (arduinobot_cpp_examples) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.466957] (-) TimerEvent: {}
+[6.573815] (-) TimerEvent: {}
+[6.678192] (-) TimerEvent: {}
+[6.783317] (-) TimerEvent: {}
+[6.860240] (arduinobot_cpp_examples) CommandEnded: {'returncode': 2}
+[6.883842] (-) TimerEvent: {}
+[6.985771] (-) TimerEvent: {}
+[7.089740] (-) TimerEvent: {}
+[7.195870] (-) TimerEvent: {}
+[7.299770] (-) TimerEvent: {}
+[7.403494] (-) TimerEvent: {}
+[7.512223] (-) TimerEvent: {}
+[7.623616] (-) TimerEvent: {}
+[7.732636] (-) TimerEvent: {}
+[7.844944] (-) TimerEvent: {}
+[7.952793] (-) TimerEvent: {}
+[8.072246] (-) TimerEvent: {}
+[8.176969] (-) TimerEvent: {}
+[8.278824] (-) TimerEvent: {}
+[8.397414] (-) TimerEvent: {}
+[8.499951] (-) TimerEvent: {}
+[8.607655] (-) TimerEvent: {}
+[8.711678] (-) TimerEvent: {}
+[8.816023] (-) TimerEvent: {}
+[8.918426] (-) TimerEvent: {}
+[9.020331] (-) TimerEvent: {}
+[9.123350] (-) TimerEvent: {}
+[9.228839] (-) TimerEvent: {}
+[9.335128] (-) TimerEvent: {}
+[9.419082] (arduinobot_description) JobEnded: {'identifier': 'arduinobot_description', 'rc': 0}
+[9.430721] (arduinobot_py_examples) JobStarted: {'identifier': 'arduinobot_py_examples'}
+[9.437953] (-) TimerEvent: {}
+[9.543633] (-) TimerEvent: {}
+[9.650739] (-) TimerEvent: {}
+[9.762141] (-) TimerEvent: {}
+[9.871761] (-) TimerEvent: {}
+[9.976479] (-) TimerEvent: {}
+[10.080316] (-) TimerEvent: {}
+[10.188054] (-) TimerEvent: {}
+[10.296295] (-) TimerEvent: {}
+[10.399353] (-) TimerEvent: {}
+[10.508649] (-) TimerEvent: {}
+[10.615680] (-) TimerEvent: {}
+[10.719201] (-) TimerEvent: {}
+[10.824434] (-) TimerEvent: {}
+[10.935667] (-) TimerEvent: {}
+[11.039195] (-) TimerEvent: {}
+[11.142210] (-) TimerEvent: {}
+[11.244113] (-) TimerEvent: {}
+[11.345826] (-) TimerEvent: {}
+[11.452147] (-) TimerEvent: {}
+[11.553249] (-) TimerEvent: {}
+[11.660029] (-) TimerEvent: {}
+[11.716596] (arduinobot_cpp_examples) JobEnded: {'identifier': 'arduinobot_cpp_examples', 'rc': 2}
+[11.728950] (arduinobot_py_examples) JobEnded: {'identifier': 'arduinobot_py_examples', 'rc': 'SIGINT'}
+[11.744743] (-) EventReactorShutdown: {}

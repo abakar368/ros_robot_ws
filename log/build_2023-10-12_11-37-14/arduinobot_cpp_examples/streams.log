@@ -1,0 +1,41 @@
+[1.412s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[2.097s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.125s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[5.872s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.985s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.139s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.069s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.129s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.740s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.144s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.156s] -- Configured cppcheck include dirs: 
+[14.162s] -- Configured cppcheck exclude dirs and/or files: 
+[14.193s] -- Added test 'lint_cmake' to check CMake code style
+[14.227s] -- Added test 'uncrustify' to check C / C++ code style
+[14.232s] -- Configured uncrustify additional arguments: 
+[14.243s] -- Added test 'xmllint' to check XML markup files
+[14.290s] -- Configuring done
+[14.844s] -- Generating done
+[14.916s] -- Build files have been written to: /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples
+[15.766s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[16.584s] [ 33%] Built target simple_publisher
+[17.073s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[17.867s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[77.685s] [ 66%] [32m[1mLinking CXX executable simple_subscriber[0m
+[82.045s] [ 66%] Built target simple_subscriber
+[82.399s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[102.669s] [01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[KonSetParametersCallbackHandle[m[K’ does not name a type; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+[102.684s]    21 |     [01;31m[KonSetParametersCallbackHandle[m[K::SharedPtr param_callback_handle_;
+[102.685s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[102.686s]       |     [32m[KOnSetParametersCallbackHandle[m[K
+[102.766s] [01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:[m[K In constructor ‘[01m[KSimpleParameter::SimpleParameter()[m[K’:
+[102.767s] [01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_callback_handle_[m[K’ was not declared in this scope
+[102.768s]    17 |         [01;31m[Kparam_callback_handle_[m[K = add_on_set_parameters_callback(std::bind(&SimpleParameter::paramChangeCallback, this, _1));
+[102.769s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[105.237s] gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+[105.239s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+[105.239s] gmake: *** [Makefile:146: all] Error 2
+[105.273s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2

@@ -1,0 +1,27 @@
+[0.625s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[1.479s] [ 33%] Built target simple_publisher
+[1.528s] [ 66%] Built target simple_subscriber
+[1.651s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[1.852s] [100%] Built target simple_parameter
+[2.012s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[2.590s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples
+[2.686s] -- Install configuration: ""
+[2.700s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[2.713s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[2.733s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[2.745s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[2.751s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[2.752s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[2.753s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[2.753s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[2.753s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[2.754s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[2.754s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[2.754s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[2.754s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[2.754s] -- Installing: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[2.778s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[2.779s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[2.783s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[2.784s] -- Up-to-date: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[2.791s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples

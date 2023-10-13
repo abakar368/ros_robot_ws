@@ -1,0 +1,66 @@
+[11.590s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/roboticist/arduinobot_ws']
+[11.590s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/roboticist/arduinobot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0a9e9ea110>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f0a9e9ec550>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f0a9e9ec550>>)
+[12.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[12.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[12.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[12.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[12.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[12.097s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/roboticist/arduinobot_ws'
+[12.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extensions ['ignore', 'ignore_ament_install']
+[12.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'ignore'
+[12.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'ignore_ament_install'
+[12.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extensions ['colcon_pkg']
+[12.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'colcon_pkg'
+[12.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extensions ['colcon_meta']
+[12.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'colcon_meta'
+[12.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extensions ['ros']
+[12.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'ros'
+[12.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extensions ['cmake', 'python']
+[12.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'cmake'
+[12.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'python'
+[12.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extensions ['python_setup_py']
+[12.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws) by extension 'python_setup_py'
+[12.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[12.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/build) by extension 'ignore'
+[12.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/build) ignored
+[12.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[12.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/install) by extension 'ignore'
+[12.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/install) ignored
+[12.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[12.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/log) by extension 'ignore'
+[12.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/log) ignored
+[12.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[12.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'ignore'
+[12.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'ignore_ament_install'
+[12.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extensions ['colcon_pkg']
+[12.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'colcon_pkg'
+[12.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extensions ['colcon_meta']
+[12.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'colcon_meta'
+[12.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extensions ['ros']
+[12.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'ros'
+[12.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extensions ['cmake', 'python']
+[12.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'cmake'
+[12.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'python'
+[12.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extensions ['python_setup_py']
+[12.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src) by extension 'python_setup_py'
+[12.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[12.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'ignore'
+[12.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'ignore_ament_install'
+[12.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['colcon_pkg']
+[12.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'colcon_pkg'
+[12.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['colcon_meta']
+[12.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'colcon_meta'
+[12.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['ros']
+[12.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'ros'
+[12.437s] DEBUG:colcon.colcon_core.package_identification:Package '/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples' with type 'ros.ament_cmake' and name 'arduinobot_cpp_examples'
+[12.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[12.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extension 'ignore'
+[12.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extension 'ignore_ament_install'
+[12.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extensions ['colcon_pkg']
+[12.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extension 'colcon_pkg'
+[12.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extensions ['colcon_meta']
+[12.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extension 'colcon_meta'
+[12.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extensions ['ros']
+[12.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/roboticist/arduinobot_ws/src/arduinobot_py_examples) by extension 'ros'
+[12.446s] DEBUG:colcon.colcon_core.package_identification:Package '/home/roboticist/arduinobot_ws/src/arduinobot_py_examples' with type 'ros.ament_python' and name 'arduinobot_py_examples'
+[12.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

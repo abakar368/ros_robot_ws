@@ -1,0 +1,57 @@
+[0.941s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples
+[1.169s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.474s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.912s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.948s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.040s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.212s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.229s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.523s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.247s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.255s] -- Configured cppcheck include dirs: 
+[8.258s] -- Configured cppcheck exclude dirs and/or files: 
+[8.262s] -- Added test 'lint_cmake' to check CMake code style
+[8.269s] -- Added test 'uncrustify' to check C / C++ code style
+[8.282s] -- Configured uncrustify additional arguments: 
+[8.287s] -- Added test 'xmllint' to check XML markup files
+[8.317s] -- Configuring done
+[8.504s] -- Generating done
+[8.522s] -- Build files have been written to: /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples
+[9.499s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples
+[9.510s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[9.835s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[10.005s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[10.088s] [ 16%] [32m[1mLinking CXX executable simple_publisher[0m
+[10.300s] [ 33%] [32m[1mLinking CXX executable simple_subscriber[0m
+[12.598s] [ 50%] Built target simple_publisher
+[12.785s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[13.030s] [ 66%] [32m[1mLinking CXX executable simple_parameter[0m
+[14.274s] [ 83%] Built target simple_parameter
+[15.050s] [100%] Built target simple_subscriber
+[15.145s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[15.541s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples
+[15.611s] -- Install configuration: ""
+[15.614s] -- Execute custom install script
+[15.623s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[15.684s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[15.737s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[15.792s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[15.877s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[15.979s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[16.037s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[16.109s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[16.164s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[16.245s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[16.316s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[16.368s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[16.429s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[16.479s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[16.663s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[16.783s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[16.900s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[17.024s] -- Symlinking: /home/roboticist/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[17.141s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples

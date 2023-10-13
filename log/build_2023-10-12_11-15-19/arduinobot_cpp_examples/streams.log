@@ -1,0 +1,13 @@
+[1.342s] Invoking command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[2.669s] [ 33%] Built target simple_publisher
+[2.956s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[3.489s] [ 66%] Built target simple_subscriber
+[4.134s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[4.332s] [01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[4.333s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[4.333s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.333s] compilation terminated.
+[4.334s] gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+[4.334s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+[4.339s] gmake: *** [Makefile:146: all] Error 2
+[4.550s] Invoked command in '/home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2

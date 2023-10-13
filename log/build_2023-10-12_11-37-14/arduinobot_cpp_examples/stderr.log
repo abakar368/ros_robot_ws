@@ -1,0 +1,11 @@
+[01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[KonSetParametersCallbackHandle[m[K’ does not name a type; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+   21 |     [01;31m[KonSetParametersCallbackHandle[m[K::SharedPtr param_callback_handle_;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KOnSetParametersCallbackHandle[m[K
+[01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:[m[K In constructor ‘[01m[KSimpleParameter::SimpleParameter()[m[K’:
+[01m[K/home/roboticist/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_callback_handle_[m[K’ was not declared in this scope
+   17 |         [01;31m[Kparam_callback_handle_[m[K = add_on_set_parameters_callback(std::bind(&SimpleParameter::paramChangeCallback, this, _1));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
